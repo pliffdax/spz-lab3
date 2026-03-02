@@ -1,14 +1,14 @@
 package model
 
 type PTE struct {
-    Present bool
-    R       bool
-    M       bool
-    PPN     int
+	Present bool
+	R       bool
+	M       bool
+	PPN     int
 }
 
 type Access struct {
-    PID     int
-    VPN     int
-    IsWrite bool
+	PID     int
+	VPN     int
+	IsWrite bool
 }
